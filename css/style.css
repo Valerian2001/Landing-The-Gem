@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+:root{
+	--Color-negro: #1b1e20;
+	--Color-numeros: #ecf1f3;
+	--Color-general: #5f727f;
+	--Color-borde-speakers: #dfe5e8;
+	--Fondo-footer: #222528;
+	--Color-letra-footer: #99a9b5;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #222528;
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px solid #525252;
+}
+
+header img{
+	width: 140px;
+}
+
+.section{
+	padding:10% 0;
+}
+
+
+#hero{
+	text-align: center;
+	text-transform: uppercase;
+	background-image: url("../img/bg-hero.png");
+	background-position: top center;
+	background-size: cover;
+}
+
+
+#hero h1, #hero h4, #hero h3, #hero h4, #hero h2, #hero h5{
+	color: #fff;
+}
+
+
+#hero h1{
+	font-size: 100px;
+	font-weight: 700;
+}
+
+#hero h5{
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.overlay{
+	padding: 10% 0;
+	height: 100vh;
+}
+
+.btn-warning{
+	border-radius: 0;
+	padding: 15px 30px !important;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.subtitulo{
+	text-align: center;
+	font-size: 20px;
+	color: var(--Color-general);
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.titulo{
+	font-size: 36px;
+	font-weight: 800;
+	text-align: center;
+	margin-bottom: 50px;
+	color: var(--Color-general);
+}
+
+#conference .btn-warning{
+	padding: 15px 30px;
+	background-color: #fff;
+	border:2px solid #0094D6;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #0094D6;
+	text-align: left
+}
+
+
+#conference a{
+	text-align: left;
+}
+
+
+
+#conference h3{
+	font-size: 22px;
+	text-align: left;
+	color: var(--Color-negro);
+	
+}
+
+#conference h1{
+	font-size: 70px;
+	font-weight: 700;
+	color: var(--Color-numeros);
+	text-align: left;
+}
+
+#conference p{
+	text-align: left;
+	color: var(--Color-general);
+}
+
+#conference li{
+	text-align: left
+}
+
+
+
+
+
+
+
+#numbers{
+	background-image: url("../img/bg-counter.png");
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+#numbers h3{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#numbers h4{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 700;
+}
+
+#numbers i{
+	
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 100%;
+	font-size: 45px;
+	margin: 40px 0;
+	color: var(--Color-borde-speakers);
+	background-color: hsla(179,55%,49%,1.00);
+}
+
+
+
+
+.Equipo img{
+	border-radius: 100%;
+	margin-bottom: 25px;
+	transition: all 0.3s ease-in-out;
+}
+
+.Equipo h4{
+	text-transform: uppercase;
+	font-weight: 400;
+	color: var(--Color-negro)
+}
+
+.Equipo p{
+	color: var(--Color-general);
+	font-size: 16px;
+}
+
+.Equipo{
+	border: 1px solid #eee;
+	text-align: left;
+	padding: 25px 30px;
+	border-radius: 5px;
+	margin-bottom: 100px;
+}
+
+#thegem{
+	background-color: var(--Color-negro);
+}
+
+
+#thegem img{
+	margin: 30px;
+	width: 400px;
+}
+
+#thegem h3{
+	color: var(--Color-borde-speakers);
+	font-weight: 300;
+}
+
+footer{
+	background-color: var(--Fondo-footer);
+	padding: 30px 0;
+	color: var(--Color-letra-footer);
+	text-align: left;
+}
